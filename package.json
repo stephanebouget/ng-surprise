@@ -1,9 +1,10 @@
 {
-  "name": "ng-surprise",
-  "version": "0.3.0",
+  "name": "ng-surprise-sbo",
+  "version": "0.3.1",
+  "main": "dist/ng-surprise.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rafaelcamargo/ng-surprise"
+    "url": "https://github.com/stephanebouget/ng-surprise"
   },
   "devDependencies": {
     "angular": "~1.4.9",

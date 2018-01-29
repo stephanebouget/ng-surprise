@@ -3,8 +3,10 @@ angular.module('ngSurprise',[]).controller('surpriseController',
 
     $scope.sequence = [];
 
-    function storeKey(event){
-      $scope.sequence.push(event.keyCode.toString());
+    function storeKey(event) {
+      if (event.keyCode) {
+        $scope.sequence.push(event.keyCode.toString());
+      }
       checkSequenceLength();
       checkSurprise();
     }
